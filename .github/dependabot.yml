@@ -15,3 +15,10 @@ updates:
       default-days: 3
 
   # add test harness configuration here
+
+  - package-ecosystem: "pip"
+    directory: "/"
+    schedule:
+      interval: "daily"
+    cooldown:
+      default-days: 3
