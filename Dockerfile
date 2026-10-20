@@ -1,4 +1,4 @@
-FROM python:3.14-alpine
+FROM python:3.15-alpine
 WORKDIR /usr/src/harness
 # The version is pinned in requirements.txt, which Dependabot keeps up to date.
 COPY requirements.txt .
